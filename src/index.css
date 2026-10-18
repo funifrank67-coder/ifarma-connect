@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+
+:root {
+  font-family: Inter, Poppins, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #243238;
+}
+
+.page {
+  @apply min-h-screen bg-[#F4F6F5] p-4 text-[#243238];
+}
+
+.title {
+  @apply text-2xl font-semibold mb-4;
+}
+
+.card {
+  @apply bg-white rounded-2xl p-4 shadow-sm border border-[#E7ECE9];
+}
+
+.input {
+  @apply min-h-12 rounded-xl border border-[#CFE8D8] px-3 py-2 bg-white;
+}
+
+.btn-primary {
+  @apply min-h-12 rounded-full bg-[#0B7A3B] text-white px-4 py-2 font-semibold;
+}
+
+.pill {
+  @apply min-h-12 rounded-full border border-[#CFE8D8] bg-white px-3 py-2 text-sm;
+}
+
+.pill-active {
+  @apply bg-[#0B7A3B] text-white border-[#0B7A3B];
+}
+
+.chip {
+  @apply rounded-full px-3 py-1 bg-[#F4F6F5] text-xs;
+}
+
+.chip-green {
+  @apply bg-[#CFE8D8] text-[#1F5E2B];
+}
+
+.chip-amber {
+  @apply bg-amber-100 text-amber-800;
+}
+
+.chip-red {
+  @apply bg-red-100 text-red-800;
+}
