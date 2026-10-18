@@ -1,13 +1,13 @@
 {
   "name": "IFarma Demo",
   "short_name": "IFarma",
-  "start_url": "/",
+  "start_url": "/ifarma-connect/",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#0B7A3B",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }
