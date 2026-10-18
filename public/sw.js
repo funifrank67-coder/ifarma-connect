@@ -1,5 +1,9 @@
 const CACHE_NAME = 'ifarma-demo-v1'
-const ASSETS = ['/', '/index.html', '/manifest.webmanifest']
+const ASSETS = [
+  '/ifarma-connect/',
+  '/ifarma-connect/index.html',
+  '/ifarma-connect/manifest.webmanifest',
+]
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS)))
